@@ -7,7 +7,7 @@ client.on('ready', () => {
 });
 
 client.on("guildMemberAdd", member => {
-  client.channels.find('id', '560421350867730442').send(`**welcome : [ ${member} ]**`)
+  client.channels.find('id', '560421350867730442').send(`**welcome ${member} To Lote Server**`)
 });
 
 client.login(process.env.BOT_TOKEN);
