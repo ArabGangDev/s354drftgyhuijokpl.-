@@ -1,5 +1,5 @@
-const client = new Discord.Client(); 
-const Discord = require('discord.js');
+const Discord = require("discord.js");
+const client = new Discord.Client();
 
 client.on('ready', () => {
     client.user.setGame(`LOTE BOT`, 'https://twitch.tv/LOTE-BOT');
